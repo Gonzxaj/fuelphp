@@ -6,7 +6,8 @@ return array(
     array(
       'default' => 
       array(
-        0 => '001_create_posts',
+        0 => '003_create_asds',
+        1 => '004_create_posts_3',
       ),
     ),
     'module' => 

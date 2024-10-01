@@ -2,7 +2,7 @@
 
 namespace Fuel\Migrations;
 
-class Create_posts
+class Create_posts_2
 {
 	public function up()
 	{

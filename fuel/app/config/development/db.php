@@ -22,9 +22,10 @@
  return array(
 	'default' => array(
 			'connection' => array(
-					'dsn'      => 'mysql:host=127.0.0.1;port=5445;dbname=fuelphp_db',
+					'dsn'      => 'mysql:host=database;port=3306;dbname=fuelphp_db',
 					'username' => 'root',
 					'password' => 'root',
 			),
 	),
 );
+

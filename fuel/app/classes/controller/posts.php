@@ -6,7 +6,7 @@ class Controller_Posts extends Controller_Template
 {
   public function action_index()
   {
-    $posts = Model_Posts::find('all');
+    $posts = Model_Post::find('all');
     $data = array('posts' => $posts);
     $this->template->title = "soy el index";
     $this->template->content = View::forge('posts/index', $data,false);
@@ -14,7 +14,7 @@ class Controller_Posts extends Controller_Template
 
   public function action_view($id)
   {
-    $post = Model_Posts::find('first',array(
+    $post = Model_Post::find('first',array(
       'where' => array('id' => $id),
     ));
 
@@ -32,7 +32,7 @@ class Controller_Posts extends Controller_Template
   public function action_add()
   {
     if(Input::post('send')){
-      $post = new Model_Posts();
+      $post = new Model_Post();
       $post->title = Input::post('title');
       $post->body = Input::post('body');
       $post->tags = Input::post('tags');

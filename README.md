@@ -36,3 +36,8 @@ You can not apply for membership. Start by sending in pull-requests, work on out
 * Jelmer Schreuder - Developer ([http://jelmerschreuder.nl/](http://jelmerschreuder.nl/))
 * Phil Sturgeon - Developer ([http://philsturgeon.co.uk](http://philsturgeon.co.uk))
 * Dan Horrigan - Founder, Developer ([http://dhorrigan.com](http://dhorrigan.com))
+
+
+PARA CREAR MODELO
+acceder a la shell, poner php oil g models "nombre"
+y migrar posteriormente php oil r migrate
